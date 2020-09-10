@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--Bootstrap 4 thing-->
+    <style>
+      .btn-group-xs > .btn,
+      .btn-xs {
+        padding: 0.25rem 0.4rem;
+        font-size: 0.875rem;
+        line-height: 0.5;
+        border-radius: 0.2rem;
+      }
+    </style>
+    <title>Bootstrap Cheat Sheet</title>
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!--Jumbotron-->
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1>Wlecom to my website</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum,
+          consequuntur repellendus. Iste cumque quibusdam ad veniam non,
+          voluptate rem dolorem error quas laborum tenetur! Ullam distinctio
+          repudiandae suscipit in molestias?
+        </p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+    <!--Typography-->
+    <div class="container">
+      <h1 class="page-header">Hello, world!<small>Secondary text</small></h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime modi
+        fuga vero porro dolores quasi a, nostrum nam magni itaque aliquid iure?
+        Sunt, voluptatibus impedit architecto eaque blanditiis dolore culpa.
+      </p>
+      <p>
+        <mark> Lorem ipsum dolor sit</mark>, amet consectetur adipisicing elit.
+        <del>Quis debitis sed incidunt vel ab</del> consectetur quia nisi
+        aliquam quaerat <u>sit iure</u> at optio recusandae voluptatibus tenetur
+        quos, corporis possimus nesciunt?
+      </p>
+      <hr />
+      <!--Alignment & Transformation-->
+      <p class="text-left text-lowercase">Left aligned text.</p>
+      <p class="text-center text-uppercase">Center aligned text.</p>
+      <p class="text-right text-capitalize">Right aligned text.</p>
+      <p class="text-justify">Justified aligned text.</p>
+      <p class="text-nowrap">No wrap aligned text.</p>
+
+      <!--Quick Float-->
+      <div class="float-right"></div>
+      <div class="pull-left"></div>
+
+      <!--Clear Float-->
+      <div class="clearfix"></div>
+      <hr />
+      <!--BlockQuote-->
+      <blockquote class="blockquote-reverse">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos
+          dolorum asperiores odit neque corrupti adipisci, facere placeat dicta
+          libero minima et! Id atque repudiandae eaque maiores similique odit
+          cum!
+        </p>
+        <footer>Quote by <cite title="Ali Awan">Ali Awan</cite></footer>
+      </blockquote>
+      <hr />
+      <!--Lists-->
+      <ul class="list-unstyled">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+      </ul>
+      <ul class="list-inline">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+      </ul>
+      <!--Code-->
+      <code>
+        &lt;h1&gt;Heading Text&lt;/h1&gt;
+      </code>
+      <br />
+      change dir with <kbd>cd</kbd>
+      <br />
+      To edit settings, press<kbd><kbd>ctrl</kbd> + <kbd>,</kbd> </kbd>
+      <hr />
+      <!--Contextual colors-->
+      <p class="text-primary">Hello World</p>
+      <p class="text-success">Hello World</p>
+      <p class="text-info">Hello World</p>
+      <p class="text-warning">Hello World</p>
+      <p class="text-danger">Hello World</p>
+      <p class="text-muted">Hello World</p>
+      <!--Contextual background colors-->
+      <p class="bg-primary">Hello World</p>
+      <p class="bg-success">Hello World</p>
+      <p class="bg-info">Hello World</p>
+      <p class="bg-warning">Hello World</p>
+      <p class="bg-danger">Hello World</p>
+      <p class="bg-muted">Hello World</p>
+    </div>
+    <hr />
+    <!--Buttons-->
+    <div class="container">
+      <button class="btn btn-default">Button</button>
+      <a href="#" class="btn btn-default" role="button">Link</a>
+      <input type="submit" class="btn btn-default" value="Submit" />
+      <br />
+      <!--Contectual button-->
+      <button class="btn btn-default">Default</button>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-info">Info</button>
+      <button class="btn btn-warning">Warning</button>
+      <button class="btn btn-danger">Delete</button>
+      <button class="btn btn-Link">Link</button>
+      <br />
+      <!--Button Sizes-->
+      <button class="btn btn-success btn-lg">Success</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-success btn-sm" disabled="disabled">
+        Success
+      </button>
+      <button class="btn btn-success btn-xs">Success</button>
+    </div>
+    <hr />
+    <!--Forms-->
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Add Name" />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" placeholder="Add email" />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea class="form-control" placeholder="Add Message"> </textarea>
+        </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <select class="from-control">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Upload File</label>
+          <input type="file" />
+          <p class="help-block">Only png and jpg allowed</p>
+        </div>
+        <div class="checkbox">
+          <label> <input type="checkbox" /> Check me </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <hr />
+      <form class="form-inline">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Add Name" />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" placeholder="Add email" />
+        </div>
+
+        <div class="checkbox">
+          <label> <input type="checkbox" /> Remember me </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <hr />
+    <!--Tables-->
+    <div class="container">
+      <table
+        class="table table-striped table-bordered table-hover table-condenced"
+      >
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>Eva</td>
+          <td>Jack</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Adam</td>
+          <td>Jake</td>
+          <td>55</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <!--Lists-->
+    <div class="container">
+      <ul class="list-group">
+        <li class="list-group-item">
+          Item One
+        </li>
+        <li class="list-group-item">
+          Item two
+        </li>
+        <li class="list-group-item">
+          Item three
+        </li>
+      </ul>
+      <div class="list-group">
+        <a href="#" class="list-group-item disabled">
+          Item One
+        </a>
+        <a href="#" class="list-group-item list-group-item-success">
+          Item two
+        </a>
+        <a href="#" class="list-group-item active">
+          Item three
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <!--Panel-->
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            Panel title
+          </h3>
+        </div>
+        <div class="panel-body">
+          Panel Content
+        </div>
+        <div class="panel-footer">
+          Panel Footer
+        </div>
+      </div>
+      <hr />
+      <!--WELLS-->
+      <div class="card card-body bg-primary">
+        Well
+      </div>
+      <div class="card bg-light">
+        <div class="card-body">
+          ...A...
+        </div>
+      </div>
+      <hr />
+      <div class="alert alert-success" role="alert">alert-success</div>
+      <div class="alert alert-info" role="alert">alert-info</div>
+      <div role="alert" class="alert alert-warning">alert-warning</div>
+      <div class="alert alert-danger" role="alert">alert-danger</div>
+      <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert">
+          <span>&times;</span>
+        </button>
+        You can close this alert
+      </div>
+
+      <!--Progress Bar-->
+      <div class="prgress">
+        <div
+          class="progress-bar bg-success progress-bar-striped active"
+          style="width: 50%;"
+        >
+          50%
+        </div>
+      </div>
+      <hr />
+      <!-- LABELS -->
+      <span class="label bg-default">Default</span>
+      <h1>Hello <span class="label bg-primary">Primary</span></h1>
+      <span class="label bg-success">Success</span>
+      <span class="label bg-info">Info</span>
+      <span class="label bg-warning">Warning</span>
+      <span class="label bg-danger">Danger</span>
+
+      <!-- BADGES -->
+      <a href="#">Inbox <span class="badge">50</span></a>
+
+      <button class="btn btn-primary" type="button">
+        Messages <span class="badge">2</span>
+      </button>
+    </div>
+
+    <!-- IMAGES -->
+    <div class="container">
+      <img class="img-thumbnail" src="./img/img.png" />
+      <img class="rounded" src="./img/img.png" /><br /><br />
+      <img class="rounded-circle" src="./img/img.png" />
+      <img src="./img/img.png" class="img-fluid" alt="Responsive image" />
+    </div>
+
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-8 col-8">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            aspernatur deserunt qui inventore, beatae tempora incidunt fuga
+            dolorem ut. Adipisci minima dolorem, eius dolore corporis magni sint
+            asperiores unde tenetur?
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            aspernatur deserunt qui inventore, beatae tempora incidunt.
+          </p>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            aspernatur deserunt qui inventore, beatae tempora incidunt fuga
+            dolorem ut. Adipisci minima dolorem, eius dolore corporis magni sint
+            asperiores unde tenetur?
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            aspernatur deserunt qui inventore, beatae tempora incidunt fuga
+            dolorem ut. Adipisci minima dolorem, eius dolore corporis magni sint
+            asperiores unde tenetur?
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            aspernatur deserunt qui inventore, beatae tempora incidunt fuga
+            dolorem ut. Adipisci minima dolorem, eius dolore corporis magni sint
+            asperiores unde tenetur?
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            aspernatur deserunt qui inventore, beatae tempora incidunt fuga
+            dolorem ut. Adipisci minima dolorem, eius dolore corporis magni sint
+            asperiores unde tenetur?
+          </p>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            aspernatur deserunt qui inventore, beatae tempora incidunt fuga
+            dolorem ut. Adipisci minima dolorem, eius dolore corporis magni sint
+            asperiores unde tenetur?
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            aspernatur deserunt qui inventore, beatae tempora incidunt.
+          </p>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+        <div class="col-md-1">
+          <h3>Box</h3>
+        </div>
+      </div>
+    </div>
+    <div style="height: 400px;"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
